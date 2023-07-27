@@ -1,0 +1,78 @@
+/* id */
+
+#bannerPrincipal {
+    height: 670px;
+    background-image: url(imagens/bannerPrincipal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #080808;
+    height: 500px;
+    padding: 20px;
+}
+
+nav {
+    box-shadow: 0px 2px 10px 0px rgba(41, 40, 40, 0.75);
+}
+
+
+#bannerSecundario {
+    background-color: #324ecf;
+}
+
+#sobre {
+    background-color: #f6f7f9;
+}
+
+#contato {
+    margin-left: calc(100%-700px);
+    background-color: #ffffff;
+    background-image: url(./imagens/vector2.png);
+    align-items: right;
+    background-repeat: no-repeat;
+    background-position: 100%;
+
+}
+
+#contatoMobile {
+    margin-left: calc(100%-700px);
+    background-color: #ffffff;
+    background-image: url(./imagens/vector2.png);
+    align-items: right;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: calc(100% - 400px);
+}
+
+#footer {
+    background-color: #324ecf;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#footer ul li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 15px;
+    bottom: 0;
+    right: 0;
+}
+
+#footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    display: inline-block;
+}
+
+/* #vector1{
+    background-image: url(imagens/Vector1.png);
+    background-color: black;
+} */
+
